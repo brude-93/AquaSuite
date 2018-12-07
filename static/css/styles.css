@@ -1,0 +1,24 @@
+body {
+  position:relative;
+  background-color: #7ae7ce;
+  padding-bottom: 60px;
+}
+
+body::after {
+  content: '';
+  display: block;
+  height: 50px;
+}
+
+footer {
+  position:absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #1788eb;
+  color: white;
+  font-family: courier;
+  font-size: 50%;
+  text-align: center;
+}
